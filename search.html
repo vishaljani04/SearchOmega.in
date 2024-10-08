@@ -1,0 +1,744 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- 
+    - primary meta tags
+  -->
+    <title>SearchOmega - You can Search Anything !</title>
+    <meta name="title" content="SearchOmega - Amazing & Delicious Food" />
+    <meta
+      name="description"
+      content="This is a Restaurant html template made by codewithsadee"
+    />
+
+    <!-- 
+    - favicon
+  -->
+    <link
+      rel="shortcut icon"
+      href="./assets/pic/favicon.ico"
+      type="image/svg+xml"
+    />
+
+    <!-- 
+    - google font link
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Forum&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- 
+    - custom css link
+  -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <!-- 
+    - preload images
+  -->
+    <link rel="preload" as="image" href="./assets/images/hero-slider-1.jpg" />
+    <link rel="preload" as="image" href="./assets/images/hero-slider-2.jpg" />
+    <link rel="preload" as="image" href="./assets/images/hero-slider-3.jpg" />
+  </head>
+
+  <body id="top">
+    <!-- 
+    - #PRELOADER
+  -->
+
+    <div class="preload" data-preaload>
+      <div class="circle"></div>
+      <p class="text">Search Omega</p>
+    </div>
+
+    <!-- 
+    - #TOP BAR
+  -->
+
+    <div class="topbar">
+      <div class="container">
+        <address class="topbar-item">
+          <div class="icon">
+            <ion-icon name="search" aria-hidden="true"></ion-icon>
+          </div>
+
+          <span class="span">
+            You Can Search Anything , Anytime & Anywhere with Omega !
+          </span>
+        </address>
+
+        <div class="separator"></div>
+
+        <div class="topbar-item item-2">
+          <span class="span"
+            >Fill the Theaters vibe at home in Free time !</span
+          >
+        </div>
+
+        <a href="tel:+11234567890" class="topbar-item link">
+          <div class="icon">
+            <ion-icon name="call-outline" aria-hidden="true"></ion-icon>
+          </div>
+
+          <span class="span">+91 1122334455</span>
+        </a>
+
+        <div class="separator"></div>
+
+        <a href="mailto:booking@restaurant.com" class="topbar-item link">
+          <div class="icon">
+            <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+          </div>
+
+          <span class="span">contact@searchomega.in</span>
+        </a>
+      </div>
+    </div>
+
+    <!-- 
+    - #HEADER
+  -->
+
+    <header class="header" data-header>
+      <div class="container">
+        <a href="#" class="logo">
+          <img
+            src="./assets/pic/logo.png"
+            width="160"
+            height="50"
+            alt="SearchOmega - Home"
+          />
+        </a>
+
+        <nav class="navbar" data-navbar>
+          <button class="close-btn" aria-label="close menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+
+          <a href="#" class="logo">
+            <img
+              src="./assets/images/logo.svg"
+              width="160"
+              height="50"
+              alt="SearchOmega - Home"
+            />
+          </a>
+
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <a href="#home" class="navbar-link hover-underline active">
+                <div class="separator"></div>
+
+                <span class="span">Home</span>
+              </a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="#about" class="navbar-link hover-underline">
+                <div class="separator"></div>
+
+                <span class="span">About Us</span>
+              </a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="#content" class="navbar-link hover-underline">
+                <div class="separator"></div>
+
+                <span class="span">Content</span>
+              </a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="#strength" class="navbar-link hover-underline">
+                <div class="separator"></div>
+
+                <span class="span">Our Strength</span>
+              </a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="#contact" class="navbar-link hover-underline">
+                <div class="separator"></div>
+
+                <span class="span">Contact</span>
+              </a>
+            </li>
+          </ul>
+
+       
+        </nav>
+
+        <a href="/search.html" class="btn btn-secondary">
+          <span class="text text-1">Search</span>
+          <span class="text text-2" aria-hidden="true">SearchOmega</span>
+        </a>
+
+        <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+          <span class="line line-1"></span>
+          <span class="line line-2"></span>
+          <span class="line line-3"></span>
+        </button>
+
+        <div class="overlay" data-nav-toggler data-overlay></div>
+      </div>
+    </header>
+
+    
+    <main>
+      <article>
+
+        <!-- 
+        - #HERO
+      -->
+
+      
+        <section class="hero text-center" aria-label="home" id="home">
+          <ul class="hero-slider" data-hero-slider>
+            <li class="slider-item active" data-hero-slider-item>
+              <div class="slider-bg">
+                <img
+                  src="./assets/pic/Theater.avif"
+                  width="1880"
+                  height="950"
+                  alt=""
+                  class="img-cover"
+                />
+              </div>
+              
+
+             
+              <div class="search-container" style="margin-left: 100px;">
+                <div class="search-box">
+                  <i class="fa fa-search"></i>
+                  <form action="">
+              
+                    <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Search anything..."
+                    style="width: 700px;  "
+                    
+                    />
+                    <span><button type="submit" class="search-button">Search</button></span>
+                  </form>
+
+                  <!-- <p class=" label-1  slider-reveal">Search Want Download to Movie</p>
+                </div -->
+
+                <div>
+
+             
+                </div>
+
+
+
+
+
+          
+            </li>
+
+            <li class="slider-item" data-hero-slider-item>
+              <div class="slider-bg">
+                <img
+                  src="./assets/pic/Theater.avif"
+                  width="1880"
+                  height="950"
+                  alt=""
+                  class="img-cover"
+                  
+                />
+              </div>
+
+        </section>
+        <section class="section menu" aria-label="menu-label" id="menu">
+          <div class="container">
+  
+            <p class="section-subtitle text-center label-2">Instructions</p>
+  
+            <h2 class="headline-1 section-title text-center">Movies & Web Series </h2>
+  
+            <ul class="grid-list">
+  
+              <li>
+                <div class="menu-card hover:card">
+  
+                  <div>
+  
+                    <span class="span title-2">Step - 1</span>
+  
+                    <div class="title-wrapper">
+                      <h3 class="title-3">
+                        <a href="#" class="card-title">Open Google Chrome</a>
+                      </h3>
+  
+                    </div>
+  
+                    <p class="card-text label-1">
+                      Open the Google Chrome or any Web Browser
+                    </p>
+  
+                  </div>
+  
+                </div>
+              </li>
+  
+              <li>
+                <div class="menu-card hover:card">
+  
+                  <div>
+  
+                    <span class="span title-2">Step - 2</span>
+  
+                    <div class="title-wrapper">
+                      <h3 class="title-3">
+                        <a href="#" class="card-title">Type the Name </a>
+                      </h3>
+  
+                    </div>
+  
+                    <p class="card-text label-1">
+                      Type the name of content you want to watch
+                    </p>
+  
+                  </div>
+  
+                </div>
+              </li>
+  
+              <li>
+                <div class="menu-card hover:card">
+  
+                  <div>
+  
+                    <span class="span title-2">Step - 3</span>
+  
+                    <div class="title-wrapper">
+                      <h3 class="title-3">
+                        <a href="#" class="card-title">Copy the name</a>
+                      </h3>
+  
+                    </div>
+  
+                    <p class="card-text label-1">
+                      Copy the Name of Content from web browser
+                    </p>
+  
+                  </div>
+  
+                </div>
+              </li>
+  
+              <li>
+                <div class="menu-card hover:card">
+  
+                  <div>
+  
+                    <span class="span title-2">Step - 4</span>
+  
+                    <div class="title-wrapper">
+                      <h3 class="title-3">
+                        <a href="#" class="card-title">Paste in SearchOmega</a>
+                      </h3>
+  
+                    </div>
+  
+                    <p class="card-text label-1">
+                      Paste the Coiped name of content and search
+                    </p>
+  
+                  </div>
+  
+                </div>
+              </li>
+  
+              <li>
+                <div class="menu-card hover:card">
+  
+                  <div>
+  
+                    <span class="span title-2">Step - 5</span>
+  
+                    <div class="title-wrapper">
+                      <h3 class="title-3">
+                        <a href="#" class="card-title">Select the file</a>
+                      </h3>
+  
+                    </div>
+  
+                    <p class="card-text label-1">
+                      Select the file depend as per size as per Quality
+                    </p>
+  
+                  </div>
+  
+                </div>
+              </li>
+  
+              <li>
+                <div class="menu-card hover:card">
+  
+                  <div>
+  
+                    <span class="span title-2">Step - 6</span>
+  
+                    <div class="title-wrapper">
+                      <h3 class="title-3">
+                        <a href="#" class="card-title">Watch & Download</a>
+                      </h3>
+  
+                    </div>
+  
+                    <p class="card-text label-1">
+                      You can Watch or Download the content & Enjoy!
+                    </p>
+  
+                  </div>
+  
+                </div>
+              </li>
+  
+            </ul>
+  
+            <p class="menu-text text-center">
+              Search Now !
+            </p>
+  
+            <a href="/search.html" class="btn btn-primary">
+              <span class="text text-1">Search</span>
+  
+              <span class="text text-2" aria-hidden="true">Search</span>
+            </a>
+  
+          </div>
+        </section>
+  
+  
+  
+  
+  
+        <!-- 
+          - #TESTIMONIALS
+        -->
+  
+        <section class="section testi text-center has-bg-image" style="background-image: url('./assets/pic/theater.jpeg')"
+          aria-label="testimonials" id="contact">
+          <div class="container">
+  
+            <div class="quote">”</div>
+  
+            <p class="headline-2 testi-text">
+              Please suggest & tell the Problem of you are faced in SearchOmega
+            </p>
+  
+            <div class="wrapper">
+              <div class="separator"></div>
+              <div class="separator"></div>
+              <div class="separator"></div>
+            </div>
+  
+          </div>
+        </section>
+  
+  
+  
+  
+  
+        <!-- 
+          - #RESERVATION
+        -->
+  
+        <section class="reservation">
+          <div class="container">
+  
+            <div class="form reservation-form bg-black-10">
+  
+              <form action="" class="form-left">
+  
+                <h2 class="headline-1 text-center">Contact Us</h2>
+  
+                <p class="form-text text-center">
+                  Write your Any Suggestion so teams are improved
+                </p>
+  
+                <div class="input-wrapper">
+                  <input type="text" name="name" placeholder="Your Name" autocomplete="off" class="input-field">
+  
+                  <input type="tel" name="phone" placeholder="Phone Number" autocomplete="off" class="input-field">
+                </div>
+  
+                <input type="text" name="email" placeholder="Your email" autocomplete="off" class="input-field">
+  
+  
+                <textarea name="message" placeholder="Message" autocomplete="off" class="input-field"></textarea>
+  
+                <button type="submit" class="btn btn-secondary">
+                  <span class="text text-1">Submit</span>
+  
+                  <span class="text text-2" aria-hidden="true">Submit</span>
+                </button>
+  
+              </form>
+  
+              <div class="form-right text-center" style="background-image: url('./assets/images/form-pattern.png')">
+  
+                <h2 class="headline-1 text-center">Contact Us</h2>
+  
+                <p class="contact-label">Booking Request</p>
+  
+                <a href="tel:+88123123456" class="body-1 contact-number hover-underline">+91 1122334455</a>
+  
+                <div class="separator"></div>
+  
+                <p class="contact-label">Location</p>
+  
+                <address class="body-4">
+                  If you have strength, find it !
+                </address>
+  
+  
+              </div>
+  
+            </div>
+  
+          </div>
+        </section>
+  
+  
+  
+  
+  
+        <!-- 
+          - #FEATURES
+        -->
+  
+        <section class="section features text-center" aria-label="features" id="strength">
+          <div class="container">
+  
+            <p class="section-subtitle label-2">Why Choose Us</p>
+  
+            <h2 class="headline-1 section-title">Our Strength</h2>
+  
+            <ul class="grid-list">
+  
+              <li class="feature-item">
+                <div class="feature-card">
+  
+                  <div class="card-icon">
+                    <img src="./assets/pic/4k.png" width="120" height="100" loading="lazy" alt="icon">
+                  </div>
+  
+                  <h3 class="title-2 card-title">High Quality</h3>
+  
+                  <p class="label-1 card-text">You can watch & download in high Quality.</p>
+  
+                </div>
+              </li>
+  
+              <li class="feature-item">
+                <div class="feature-card">
+  
+                  <div class="card-icon">
+                    <img src="./assets/pic/download.png" width="100" height="80" loading="lazy" alt="icon">
+                  </div>
+  
+                  <h3 class="title-2 card-title">One Click Download</h3>
+  
+                  <p class="label-1 card-text">You can download just one click and enjoy.</p>
+  
+                </div>
+              </li>
+  
+              <li class="feature-item">
+                <div class="feature-card">
+  
+                  <div class="card-icon">
+                    <img src="./assets/pic/stream.png" width="100" height="80" loading="lazy" alt="icon">
+                  </div>
+  
+                  <h3 class="title-2 card-title">Online Watch </h3>
+  
+                  <p class="label-1 card-text">You can watch Movie Online or in third party app.</p>
+  
+                </div>
+              </li>
+  
+              <li class="feature-item">
+                <div class="feature-card">
+  
+                  <div class="card-icon">
+                    <img src="./assets/pic/without.png" width="100" height="80" loading="lazy" alt="icon">
+                  </div>
+  
+                  <h3 class="title-2 card-title">Not irritet</h3>
+  
+                  <p class="label-1 card-text">Not irritet the ads when watch or download.</p>
+  
+                </div>
+              </li>
+  
+            </ul>
+  
+  
+  
+          </div>
+        </section>
+  
+  
+      </article>
+    </main>
+  
+  
+  
+  
+  
+    <!-- 
+      - #FOOTER
+    -->
+  
+    <footer class="footer section has-bg-image text-center" style="background-image: url('./assets/pic/Theater.avif')">
+      <div class="container">
+  
+        <div class="footer-top grid-list">
+  
+          <div class="footer-brand has-before has-after">
+  
+            <a href="#" class="logo">
+              <img src="./assets/pic/logo.png" width="160" height="50" loading="lazy" alt="SearchOmega home">
+            </a>
+  
+            <address class="body-4">
+              If you have strength, find it !
+            </address>
+  
+            <a href="mailto:booking@SearchOmega.com" class="body-4 contact-link">contact@SearchOmega.com</a>
+  
+            <a href="tel:+88123123456" class="body-4 contact-link">+91 1122334455</a>
+  
+            <div class="wrapper">
+              <div class="separator"></div>
+              <div class="separator"></div>
+              <div class="separator"></div>
+            </div>
+  
+            <p class="title-1">Thank you for Choosing <br> SearchOmega</p>
+  
+            <!-- <p class="label-1">
+              Subscribe us & Get <span class="span">25% Off.</span>
+            </p> -->
+  
+            <!-- <form action="" class="input-wrapper">
+              <div class="icon-wrapper">
+                <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+  
+                <input type="email" name="email_address" placeholder="Your email" autocomplete="off" class="input-field">
+              </div>
+  
+              <button type="submit" class="btn btn-secondary">
+                <span class="text text-1">Subscribe</span>
+  
+                <span class="text text-2" aria-hidden="true">Subscribe</span>
+              </button>
+            </form> -->
+  
+          </div>
+  
+          <ul class="footer-list">
+  
+            <li>
+              <a href="#home" class="label-2 footer-link hover-underline">Home</a>
+            </li>
+  
+            <li>
+              <a href="#about" class="label-2 footer-link hover-underline">About Us</a>
+            </li>
+  
+            <li>
+              <a href="#content" class="label-2 footer-link hover-underline">Content</a>
+            </li>
+  
+            <li>
+              <a href="#strength" class="label-2 footer-link hover-underline">Our Strength</a>
+            </li>
+  
+            <li>
+              <a href="#contact" class="label-2 footer-link hover-underline">Contact</a>
+            </li>
+  
+          </ul>
+  
+          <ul class="footer-list">
+  
+            <li>
+              <a href="#" class="label-2 footer-link hover-underline">Facebook</a>
+            </li>
+  
+            <li>
+              <a href="#" class="label-2 footer-link hover-underline">Instagram</a>
+            </li>
+  
+            <li>
+              <a href="#" class="label-2 footer-link hover-underline">Twitter</a>
+            </li>
+  
+            <li>
+              <a href="#" class="label-2 footer-link hover-underline">Youtube</a>
+            </li>
+  
+            <li>
+              <a href="#" class="label-2 footer-link hover-underline">Google Map</a>
+            </li>
+  
+          </ul>
+  
+        </div>
+  
+        <div class="footer-bottom">
+  
+          <p class="copyright">
+            &copy; 2024 SearchOmega. All Rights Reserved | Crafted by <a href="#" target="_blank"
+              class="link">SearchOmega</a>
+          </p>
+  
+        </div>
+  
+      </div>
+    </footer>
+  
+  
+  
+
+    <a
+      href="#top"
+      class="back-top-btn active"
+      aria-label="back to top"
+      data-back-top-btn
+    >
+      <ion-icon name="chevron-up" aria-hidden="true"></ion-icon>
+    </a>
+
+    <!-- 
+    - custom js link
+  -->
+    <script src="./assets/js/script.js"></script>
+
+    <!-- 
+    - ionicon link
+  -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
