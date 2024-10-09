@@ -2513,12 +2513,19 @@ textarea.input-field {
 
 /* Search Bar */
 
+.img-main {
+  height: 290px;
+  width: 430px;
+  margin-bottom: 10rem;
+  padding: 5rem;
+}
+
 
 
 .search-container {
   display: flex;
   justify-content: center;
-  margin-top: 20px;
+  margin-bottom: 30rem;
 
 }
 
