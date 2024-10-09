@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- 
+    - primary meta tags
+  -->
+    <title>SearchOmega - You can Search Anything !</title>
+    <meta name="title" content="SearchOmega - Amazing & Delicious Food" />
+    <meta
+      name="description"
+      content="This is a Restaurant html template made by codewithsadee"
+    />
+
+    <!-- 
+    - favicon
+  -->
+    <link
+      rel="shortcut icon"
+      href="./assets/pic/favicon.ico"
+      type="image/svg+xml"
+    />
+
+    <!-- 
+    - google font link
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Forum&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- 
+    - custom css link
+  -->
+    <link rel="stylesheet" href="/css/style.css" />
+
+    <!-- 
+    - preload images
+  -->
+    <link rel="preload" as="image" href="./assets/images/hero-slider-1.jpg" />
+    <link rel="preload" as="image" href="./assets/images/hero-slider-2.jpg" />
+    <link rel="preload" as="image" href="./assets/images/hero-slider-3.jpg" />
+  </head>
+
+  <body id="top">
+    <!-- 
+    - #PRELOADER
+  -->
+
+    <div class="preload" data-preaload>
+      <div class="circle"></div>
+      <p class="text">Search Omega</p>
+    </div>
+
+    <!-- 
+    - #TOP BAR
+  -->
+
+    <div class="topbar">
+      <div class="container">
+        <address class="topbar-item">
+          <div class="icon">
+            <ion-icon name="search" aria-hidden="true"></ion-icon>
+          </div>
+
+          <span class="span">
+            You Can Search Anything , Anytime & Anywhere with Omega !
+          </span>
+        </address>
+
+        <div class="separator"></div>
+
+        <div class="topbar-item item-2">
+          <span class="span"
+            >Fill the Theaters vibe at home in Free time !</span
+          >
+        </div>
+
+        <a href="tel:+11234567890" class="topbar-item link">
+          <div class="icon">
+            <ion-icon name="call-outline" aria-hidden="true"></ion-icon>
+          </div>
+
+          <span class="span">+91 1122334455</span>
+        </a>
+
+        <div class="separator"></div>
+
+        <a href="mailto:booking@restaurant.com" class="topbar-item link">
+          <div class="icon">
+            <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+          </div>
+
+          <span class="span">contact@searchomega.in</span>
+        </a>
+      </div>
+    </div>
+
+    <!-- 
+    - #HEADER
+  -->
+
+    <header class="header" data-header>
+      <div class="container">
+        <a href="#" class="logo">
+          <img
+            src="./assets/pic/logo.png"
+            width="160"
+            height="50"
+            alt="SearchOmega - Home"
+          />
+        </a>
+
+        <nav class="navbar" data-navbar>
+          <button class="close-btn" aria-label="close menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+
+          <a href="#" class="logo">
+            <img
+              src="./assets/pic/logo.png"
+              width="160"
+              height="50"
+              alt="SearchOmega - Home"
+            />
+          </a>
+
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <a href="#home" class="navbar-link hover-underline active">
+                <div class="separator"></div>
+
+                <span class="span">Home</span>
+              </a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="#about" class="navbar-link hover-underline">
+                <div class="separator"></div>
+
+                <span class="span">About Us</span>
+              </a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="#content" class="navbar-link hover-underline">
+                <div class="separator"></div>
+
+                <span class="span">Content</span>
+              </a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="#strength" class="navbar-link hover-underline">
+                <div class="separator"></div>
+
+                <span class="span">Our Strength</span>
+              </a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="#contact" class="navbar-link hover-underline">
+                <div class="separator"></div>
+
+                <span class="span">Contact</span>
+              </a>
+            </li>
+          </ul>
+
+       
+        </nav>
+
+        <a href="/search" class="btn btn-secondary">
+          <span class="text text-1">Search</span>
+          <span class="text text-2" aria-hidden="true">SearchOmega</span>
+        </a>
+
+        <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+          <span class="line line-1"></span>
+          <span class="line line-2"></span>
+          <span class="line line-3"></span>
+        </button>
+
+        <div class="overlay" data-nav-toggler data-overlay></div>
+      </div>
+    </header>
+
+    
+    <main>
+      <article>
+
+        <!-- 
+        - #HERO
+      -->
+
+      
+        <section class="hero text-center" aria-label="home" id="home">
+          <ul class="hero-slider" data-hero-slider>
+            <li class="slider-item active" data-hero-slider-item>
+              {{!-- <div class="slider-bg">
+                <img
+                  src="./assets/pic/Theater.avif"
+                  width="1880"
+                  height="950"
+                  alt=""
+                  class="img-cover"
+                />
+              </div> --}}
+              
+              <div class="search-container" style="margin-left: 100px;">
+                <div class="search-box">
+                  <i class="fa fa-search"></i>
+                  <form action="">
+              
+                    <input
+
+                    id="searchInput"
+                    type="text"
+                    class="form-control"
+                    placeholder="Search anything..."
+                    {{!-- style="width: 700px;  " --}}
+                    onkeyup="searchFunction()"
+                    
+                    />
+                    <span><button type="submit" class="search-button">Search</button></span>
+                  </form>
+                  
+                  <div id="resultList" class="result-list"><div>
+                </div>
+
+             
+                </div>
+
+            </li>
+
+  
+  
+      </article>
+    </main>
+  
+    <!-- 
+    - custom js link
+  -->
+    <script src="./assets/js/script.js"></script>
+
+    <!-- 
+    - ionicon link
+  -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script src="./assets/js/search.js"></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
